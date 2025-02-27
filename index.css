@@ -8,6 +8,20 @@
     --light-color: #FFFEFC;
     --grey-color: #747E79;
     --dark-color: #000000;
+
+    --primary-font: 'Cabin', sans-serif;
+    --seconday-font: 'Calistoga', sans-serif;
+    
+    --border-width: 3px;
+    --element-border-radius: 5px;
+    
+    --button-height: 5px;
+    
+    --small-button-height: 2px;
+    
+    --element-padding: 0.8em;
+    
+    --maximum-width: 320px;
 }
 
 html, body {
@@ -17,5 +31,17 @@ html, body {
 }
 
 body {
+    color: var(--dark-color);
+    background-color: var(--secondary-light-color);
+    font-family: var(--primary-font);
+}
 
+/* === Typography === */
+
+h1 {
+    margin: 0;
+}
+
+.app-title {
+    font-family: var(--seconday-font);
 }
