@@ -68,3 +68,9 @@ section {
     flex-direction: column;
     width: 100%;
 }
+
+#logged-out-view .container {
+    gap: 2em;
+}
+
+/* === Common for elements === */
