@@ -89,3 +89,14 @@ input, button {
 input:focus, button:focus {
     outline: none;
 }
+
+/* === Input fields === */
+
+input {
+    font-weight: 300;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--grey-color);
+    opacity: 1; /* Firefox */
+}
