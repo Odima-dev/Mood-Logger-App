@@ -133,8 +133,14 @@ button:hover {
 
 .secondary-btn {
     padding: 0.4em;
+    background-color: transparent;
 }
 
 .secondary-btn:hover {
     color: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+.provider-btn {
+    color: var(--dark-color);
 }
