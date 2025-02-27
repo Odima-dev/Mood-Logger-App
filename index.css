@@ -74,3 +74,18 @@ section {
 }
 
 /* === Common for elements === */
+
+input, button {
+    font-family: iherit;
+    padding: var(--element-padding);
+    border-radius: var(--element-border-radius);
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    text-align: center;
+    border: var(--border-width) solid var(--dark-color);
+}
+
+input:focus, button:focus {
+    outline: none;
+}
