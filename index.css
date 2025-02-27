@@ -114,5 +114,27 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 button {
     font-weight: 600;
     width: 100%;
+}
 
+button:hover {
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    box-shadow: 0px var(--button-height) 0px 0px var(--dark-color);
+    position: relative;
+}
+
+.primary-btn:hover {
+    top: var(--button-height);
+    box-shadow: none;
+}
+
+.secondary-btn {
+    padding: 0.4em;
+}
+
+.secondary-btn:hover {
+    color: var(--light-color);
 }
