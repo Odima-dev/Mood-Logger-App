@@ -59,3 +59,12 @@ section {
     flex-direction: column;
     gap: 1em;
 }
+
+/* === Structure === */
+.container {
+    max-width: var(--maximum-width);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
