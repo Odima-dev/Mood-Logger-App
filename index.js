@@ -41,5 +41,24 @@ function authSignInWithEmail() {
 }
 
 function authCreateAccountWIthEmail() {
-    console.log("Sign in with email an password")
+    console.log("Sign up with email an password")
+}
+
+/* == Functions - UI Functions == */
+function showLoggedOutView() {
+    hideElement(viewLoggedIn)
+    showElement(viewLoggedOut)
+}
+
+function showLoggedInView() {
+    hideElement(viewLoggedOut)
+    showElement(viewLoggedIn)
+}
+
+function showElement(element) {
+    element.style.display = "flex"
+}
+
+function hideElement(element) {
+    element.style.display = "none"
 }
