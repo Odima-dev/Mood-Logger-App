@@ -162,7 +162,7 @@ button:hover {
 
 /* === IDs === */
 #logged-out-view {
-    display: ;
+    display: none;
 }
 
 #logged-in-view {
