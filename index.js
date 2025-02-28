@@ -22,9 +22,24 @@ const createAccountButtonEl= document.getElementById("create-account-btn")
 signInWithGoogleButtonEl.addEventListener("click", authSignInWithGoogle)
 
 
-signInButtonEl.addEventListener("click", authSignWithEmail)
+signInButtonEl.addEventListener("click", authSignInWithEmail)
 createAccountButtonEl.addEventListener("click", authCreateAccountWIthEmail)
 
 /* === Main Code === */
 showLoggedOutView()
 
+/* === Functions === */
+
+/* = Functions - Firebase - Authentication = */
+
+function authSignInWithGoogle() {
+    console.log("Sign in with Google")
+}
+
+function authSignInWithEmail() {
+    console.log("Sign in with email an password")
+}
+
+function authCreateAccountWIthEmail() {
+    console.log("Sign in with email an password")
+}
