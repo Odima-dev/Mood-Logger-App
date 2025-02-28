@@ -14,3 +14,17 @@ const signInWithGoogleButtonEl = document.getElementById("sign-in-with-google-bt
 const emailInputEl = document.getElementById("email-input")
 const passwordInputEl = document.getElementById("password-input")
 
+const signInButtonEl = document.getElementById("sign-in-btn")
+const createAccountButtonEl= document.getElementById("create-account-btn")
+
+/* == UI - Event Listeners == */
+
+signInWithGoogleButtonEl.addEventListener("click", authSignInWithGoogle)
+
+
+signInButtonEl.addEventListener("click", authSignWithEmail)
+createAccountButtonEl.addEventListener("click", authCreateAccountWIthEmail)
+
+/* === Main Code === */
+showLoggedOutView()
+
