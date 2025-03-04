@@ -1,7 +1,12 @@
 /* === Imports === */
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 
 /* === Firebase Setup === */
+const firebaseConfig = {
 
+}
+
+const app = initializeApp(firebaseConfig)
 /* === UI === */
  
 /* == UI - Elements == */
